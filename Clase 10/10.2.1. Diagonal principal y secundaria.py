@@ -8,7 +8,7 @@
 N = int(input())
 l =  []
 for i in range(N):
-    temp = list(map(int, input().split()))
+    temp = list(map(int, input().split(",")))
     l.append(temp)
 
 

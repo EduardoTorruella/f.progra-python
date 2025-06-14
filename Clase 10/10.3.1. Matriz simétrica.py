@@ -8,7 +8,7 @@
 N = int(input())
 m =  []
 for i in range(N):
-    temp = list(map(int, input().split()))
+    temp = list(map(int, input().split(",")))
     m.append(temp)
 
 diagonal_p = []
